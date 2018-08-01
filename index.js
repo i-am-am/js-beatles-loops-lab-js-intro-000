@@ -16,3 +16,12 @@ function johnLennonFacts(facts){
   }
   return newa
 }
+
+function iLoveTheBeatles(n){
+  var newa = []
+  do {
+    newa.push("I love the Beatles!")
+    n++
+  } while (n < 15)
+  return newa
+}
