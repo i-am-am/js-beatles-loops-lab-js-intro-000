@@ -11,7 +11,7 @@ function johnLennonFacts(facts){
   var i = 0
   var newa = []
   while (i < facts.length) {
-    newa.push(`${facts[0]}!!!`)
+    newa.push(`${facts[i]}!!!`)
     i++
   }
   return newa
