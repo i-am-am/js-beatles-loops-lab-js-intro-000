@@ -6,3 +6,13 @@ function theBeatlesPlay(musicians, instruments){
   }
   return newa
 }
+
+function johnLennonFacts(facts){
+  var i = 0
+  var newa = []
+  while (i < facts.length) {
+    newa.push(`${facts[0]}!!!`)
+    i++
+  }
+  return newa
+}
